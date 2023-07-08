@@ -7,6 +7,7 @@ import Hello.core.member.MemoryMemberRepository;
 import Hello.core.order.OrderService;
 import Hello.core.order.OrderServiceImpl;
 
+//AppConfig: 앱 전반의 구성을 책임지는 클래스
 public class AppConfig {
 
     //생성자 주입

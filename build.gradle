@@ -15,6 +15,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testCompileOnly 'junit:junit:4.13.2' //만약 뭐가 안되면 바로 삭제 해버리기
 }
 
 tasks.named('test') {
