@@ -15,7 +15,7 @@ import Hello.core.order.OrderServiceImpl;
 - DIP 완성 : MemberServiceImpl은 MemberRepository인 추상에만 의존하면 됨, 구체 클레스 몰라도 됨
 - 관심사의 분리 : 객체를 생성하고 연결하는 역할(Config)과 실행하는 역할(Impl)이 명확히 분리
 - AppConfig 객체는 memoryMemberRepository 객체를 생성하고 그 참조값을 memberServiceImpl을 생성하면서 생성자로 전달
-- memberServiceImpl(클라이언트) 입를 통햇에서 보면, 의존관계를 마치 외부에서 주입해주는 것과 같아서
+- memberServiceImpl(클라이언트) 입장을 통해서 보면, 의존관계를 마치 외부에서 주입해주는 것과 같아서
 - DI(Dependency Injection) , 의존관계 주입, 의존성 주입
 */
 
