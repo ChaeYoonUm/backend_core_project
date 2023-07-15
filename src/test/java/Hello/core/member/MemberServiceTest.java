@@ -9,6 +9,8 @@ public class MemberServiceTest {
 
     MemberService memberService;
 
+    // 테스트 실행 전 무조건 실행되도록 하는 코드
+    // 테스트가 2개 있으면 2번 실행
     @BeforeEach
     public void beforeEach(){
         AppConfig appConfig = new AppConfig();
